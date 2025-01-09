@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brawl Stars Tarzı Oyun</title>
+    <link rel="stylesheet" href="bs.css">
+</head>
+<body>
+
+<div id="game-container">
+    <h1>Brawl Stars Tarzı Oyun</h1>
+
+    <!-- Karakter Seçimi -->
+    <div class="character" id="samet" onclick="playSound('samet')">
+        <img src="samet.jpg" alt="Samet">
+        <p>Samet</p>
+    </div>
+    <div class="character" id="apo" onclick="playSound('apo')">
+        <img src="apo.jpg" alt="Apo">
+        <p>Apo</p>
+    </div>
+    <div class="character" id="berk" onclick="playSound('berk')">
+        <img src="berk.jpg" alt="Berk">
+        <p>Berk</p>
+    </div>
+    <div class="character" id="berat" onclick="playSound('berat')">
+        <img src="berat.jpg" alt="Berat">
+        <p>Berat</p>
+    </div>
+
+    <!-- Karakter Bilgisi ve Ses Kontrol -->
+    <div class="info" id="info">
+        <p>Bir karakter seçin ve sesini dinleyin.</p>
+    </div>
+    <button class="sound-button" id="soundButton" onclick="playRandomSound()">Rastgele Ses Çal</button>
+</div>
+
+<script src="bs.js"></script>
+
+</body>
+</html>
